@@ -1,1 +1,1 @@
-alert('Esta nft é ficticia. Todos os direitos de Jett reservados a Riot games.')
+// alert('Esta nft é ficticia. Todos os direitos de Jett reservados a Riot games.')

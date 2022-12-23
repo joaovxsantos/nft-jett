@@ -1,10 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
 body{
     background-color: steelblue;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.primeira{
+.container-card{
+    background-color: #dab510;
+    width: 200px;
+    height: 200px;
+}
+
+
+.img1{
+    width: 200px;
+}
+
+
+
+
+/* .primeira{
     width: 250px;
     height: 400px;
     background-color: rgb(218, 181, 16);
@@ -76,4 +99,4 @@ hr{
     left: 575px;
     top: 360px;
     color: white;
-}
+} */
