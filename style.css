@@ -1,102 +1,75 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 
-body{
-    background-color: steelblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: steelblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100vh;
 }
 
-
-.container-card{
-    background-color: #dab510;
-    width: 200px;
-    height: 200px;
+.container-card {
+  display: flex;
+  flex-direction: column;
 }
 
-
-.img1{
-    width: 200px;
+.infos-card {
+  background-color: #dab510;
+  width: 300px;
+  height: 440px;
 }
 
-
-
-
-/* .primeira{
-    width: 250px;
-    height: 400px;
-    background-color: rgb(218, 181, 16);
-    border-radius: 10px;
-    position: absolute;
-    left: 550px; 
-    margin: auto;
-    top:100px
+.title-card {
+  width: 70%;
+  margin: auto;
 }
 
-
-.img1{
-    display: block;
-    position: absolute;
-    left: 575px;
-    top: 120px;
-    border-radius: 10px;
+.title-card img {
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 2rem;
 }
 
-h1{
-    position: absolute;
-    left: 575px;
-    top: 320px;
-    font-size: 25px;
-    color: white;
+.title-card p {
+  margin: 8px 0 10px 0;
 }
 
-
-.img2{
-    display: block;
-    position: absolute;
-    left: 565px;
-    top: 420px;
+.moeda-card {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 75%;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
-
-.p2{
-    position: absolute;
-    left: 590px;
-    top: 405px;
-    color:#8a8984
+.moeda-card img {
+  width: 30px;
 }
 
-hr{
-    width: 200px;
-    position: absolute;
-    top: 440px;
-    left: 570px;
-
+.autoria-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  width: 75%;
 }
 
-.img3{
-    position: absolute;
-    left: 575px;
-    top: 460px;
-    border-radius: 100px;
+.autoria-card img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 8px;
 }
 
-
-.p3{
-    position: absolute;
-    left: 610px;
-    top: 445px;
+.autoria-card a{
+    font-weight: 700;
+    text-decoration: underline;
 }
-
-
-.p1{
-    position: absolute;
-    left: 575px;
-    top: 360px;
-    color: white;
-} */
