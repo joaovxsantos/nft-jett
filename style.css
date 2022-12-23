@@ -122,3 +122,10 @@ body {
 .autoria-card a:hover {
   font-size: 18px;
 }
+
+@media (max-width: 280px) {
+  .container-card:before,
+  .container-card::after {
+    width: 95%;
+  }
+}
