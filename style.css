@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  
 }
 
 body {
@@ -15,19 +18,60 @@ body {
   min-height: 100vh;
 }
 
+
 .container-card {
+  position: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+
+.container-card:before,
+.container-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: calc(100% + 30px);
+  height: calc(100% + 30px);
+  background: linear-gradient(
+    45deg,
+    #ffff00,
+    #c5c541,
+    #ffff00,
+    #c5c541,
+    #ffff00,
+    #c5c541,
+    #ffff00,
+    #c5c541,
+    #ffff00,
+    #c5c541
+  );
+  background-size: 300%;
+  animation: AnimarBorda 5s linear infinite;
+}
+
+@keyframes AnimarBorda {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+
+.container-card::after {
+  filter: blur(50px);
 }
 
 .infos-card {
-  background-color: #dab510;
-  width: 300px;
+  margin-top: 2rem;
+  /* background-color: #dab510; */
+  width: 280px;
   height: 440px;
+  border-radius: 5px;
 }
 
 .title-card {
-  width: 70%;
+  width: 72%;
   margin: auto;
 }
 
@@ -69,7 +113,7 @@ body {
   margin-right: 8px;
 }
 
-.autoria-card a{
-    font-weight: 700;
-    text-decoration: underline;
+.autoria-card a {
+  font-weight: 700;
+  text-decoration: underline;
 }
