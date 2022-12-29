@@ -1,5 +1,5 @@
 # NFT-Jett
-* Aprimoração do projeto de um card da personagem Jett do Valorant.
+* Projeto de um card da personagem Jett do Valorant.
 ## Resultado
 * Desktop  
 ![jett gif](https://user-images.githubusercontent.com/97799540/209268552-fb4f72d9-dfe4-4b64-adb7-f891a57ffc2c.gif)
